@@ -45,25 +45,7 @@ The proposed network incorporates hard attention to identify the liver region be
 
 ---
 
-## Overall Workflow
 
-<p align="center">
-  <img src="figures/workflow.png" width="350"/>
-</p>
-
-<p align="center">
-<i>Figure 2. Overall workflow of the proposed framework.</i>
-</p>
-
-The segmentation pipeline consists of:
-
-1. CT image preprocessing
-2. Liver localisation
-3. Hard attention-based ROI extraction
-4. Hybrid Attention U-Net segmentation
-5. Final tumour prediction
-
----
 
 ## Experimental Results
 
